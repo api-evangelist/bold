@@ -1,20 +1,91 @@
 aid: bold
 name: Bold
-description: Bold is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bold (Age Bold, Inc.) is an AI-enabled healthy-aging company founded in 2019 by Amanda Rees and
+  Hari Arul that combines age-friendly virtual care with senior-focused exercise and nutrition
+  programs for Medicare members. The platform delivers personalized at-home programs — live and
+  on-demand classes, balance and fall-prevention regimens, pain and mobility programs, nutrition
+  coaching, and telehealth visits with clinicians — to adults 65 and older, distributed through
+  Medicare Advantage plans, provider groups, and the CMS ACCESS program rather than sold as a
+  developer platform. Bold reports its balance programs lower fall risk and its pain programs reduce
+  joint pain among participating members, and states its platform is HIPAA compliant and requires no
+  lengthy IT integration for plan partners. The company has raised roughly $27M, with a $17M Series A
+  led by Rethink Impact alongside Andreessen Horowitz Bio + Health, Khosla Ventures, Samsung Next,
+  GingerBread Capital, and Primetime Partners. As of this enrichment pass Bold publishes no public
+  developer portal, API documentation, OpenAPI definition, SDKs, or partner API surface — integrations
+  are handled through its partnerships team.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.agebold.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/bold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Health
+- Healthy Aging
+- Medicare
+- Telehealth
+- Fitness
+- Preventive Care
+- Fall Prevention
+- Seniors
+- Value-Based Care
 apis: []
+common:
+- type: DomainSecurity
+  url: security/bold-domain-security.yml
+- type: LLMsTxt
+  url: llms/bold-llms.txt
+- type: Website
+  url: https://www.agebold.com/
+- type: About
+  url: https://www.agebold.com/about
+- type: SignUp
+  url: https://www.agebold.com/sign-up
+- type: Login
+  url: https://www.agebold.com/sign-in
+- type: Support
+  url: https://www.agebold.com/contact
+- type: HelpCenter
+  url: https://www.agebold.com/faq
+- type: Blog
+  url: https://www.agebold.com/resources
+- type: Press
+  url: https://www.agebold.com/press
+- type: Careers
+  url: https://www.agebold.com/careers
+- type: Partners
+  url: https://www.agebold.com/partnerships
+- type: TermsOfService
+  url: https://www.agebold.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.agebold.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/agebold
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agebold
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

@@ -1,0 +1,75 @@
+# Bold (Age Bold, Inc.)
+
+> AI-enabled healthy-aging company delivering age-friendly virtual care plus senior-focused
+> exercise and nutrition programs to Medicare members. Founded 2019 by Amanda Rees and Hari Arul.
+> Distributed through Medicare Advantage plans, provider groups, and the CMS ACCESS program.
+
+Generated: 2026-07-20
+Method: generated
+Source: apis.yml (API Evangelist catalog) + https://www.agebold.com/
+
+## API surface
+
+Bold publishes **no public API**. As of 2026-07-20 there is no developer portal, no API
+reference, no OpenAPI/AsyncAPI definition, no SDKs, no CLI, no MCP server, and no
+`/.well-known/` discovery documents on `www.agebold.com` or `api.agebold.com`
+(security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json
+all returned 404). Health-plan and provider integrations are arranged through Bold's
+partnerships team, not through a self-serve developer program.
+
+- Partnerships (integration entry point): https://www.agebold.com/partnerships
+- Request a demo: https://www.agebold.com/partnerships/demo
+- Contact: https://www.agebold.com/contact
+
+## Company
+
+- Website: https://www.agebold.com/
+- About: https://www.agebold.com/about
+- Science: https://www.agebold.com/science
+- Press: https://www.agebold.com/press
+- Careers: https://www.agebold.com/careers
+- LinkedIn: https://www.linkedin.com/company/agebold
+- GitHub organization: https://github.com/agebold (7 public repos, general-purpose tooling
+  and forks — no client libraries for a Bold API)
+
+## Product
+
+- Personalized at-home exercise programs for adults 65+ (balance/fall prevention, pain and
+  mobility, strength, cardio, Tai Chi)
+- Live and on-demand classes with trainers
+- Nutrition programs and coaching
+- Telehealth visits with clinicians; GLP-1 prescribing for eligible members
+- Clinical assessments driving program personalization
+
+## Users and access
+
+- Members: Medicare Advantage enrollees whose plan covers Bold, and Original Medicare
+  members in ACCESS-program states
+- Check eligibility / sign up: https://www.agebold.com/sign-up
+- Sign in: https://www.agebold.com/sign-in
+- FAQ: https://www.agebold.com/faq
+
+## Content
+
+- Resource center / blog: https://www.agebold.com/resources
+
+## Legal
+
+- Terms of Service: https://www.agebold.com/terms-of-service
+- Privacy Policy: https://www.agebold.com/privacy-policy (includes a GDPR notice; names a
+  Security Officer postal address but no vulnerability-disclosure process)
+- Disclaimers: https://www.agebold.com/disclaimers
+
+## Security posture (probed 2026-07-20)
+
+- HTTPS on www.agebold.com: TLSv1.3, HSTS enabled (max-age 31536000)
+- agebold.com DNS: SPF present, DMARC present with policy `reject`, DNSSEC not enabled,
+  no CAA records
+- No published security.txt, vulnerability disclosure program, bug bounty, or trust center
+- No publicly verified compliance certifications (no SOC 2 / ISO 27001 / HITRUST attestation
+  page found; the privacy policy does not assert HIPAA business-associate status)
+
+## Funding
+
+~$27M total. $17M Series A led by Rethink Impact, with Andreessen Horowitz Bio + Health,
+Khosla Ventures, Samsung Next, GingerBread Capital, and Primetime Partners.
