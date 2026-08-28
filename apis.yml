@@ -14,6 +14,17 @@ description: >-
   GingerBread Capital, and Primetime Partners. As of this enrichment pass Bold publishes no public
   developer portal, API documentation, OpenAPI definition, SDKs, or partner API surface — integrations
   are handled through its partnerships team.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
